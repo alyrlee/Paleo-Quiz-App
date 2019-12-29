@@ -9,36 +9,6 @@
     <link href="float-grid.css" rel="stylesheet" type="text/css" />
     <link href="index.css" rel="stylesheet" type="text/css" />
   </head>
-  <body>
-    <header>
-      <div class="row">
-        <div class="col-12">
-          <h1>Paleo Diet Quiz</h1>    
-          <div class="question-and-score"></div>
-        </div>
-      </div>
-    </header>
-
-    <main role="main" aria-live="assertive">
-      <fieldset>
-        <div class="row">
-          <div class="col-12">
-            <legend>Paleo Diet</legend>
-            <p>This quiz is to analyze your basic knowledge the Paleo Diet.</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <button type="button" id="start"> Start Quiz</button>
-          </div>
-        </div>
-      </fieldset>
-    </main>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="store.js"></script>
-    <script src="index.js"></script>
-  </body>
-</html>
 
 
  <!--HTML has 3 sections.
@@ -85,6 +55,122 @@ II. Content of Quiz: Questions/Answers
 				1) Refined processed foods (containing refined oils such as shortening, margarine)
 				2) Sugars (sucrose, high fructose corn syrup, syrups)
 				3) Grains (whole grain, refined grains)
-       				 Dairy (milk, cheese, butter)
+        Dairy (milk, cheese, butter)
 
-        
+add ally-->
+
+  <body>
+    <!--Title with its subtitle-->
+    <header>
+      <div class="row">
+        <div class="col-12">
+          <h1>Paleo Diet Quiz</h1>    
+          <div class="question-and-score"></div>
+        </div>
+      </div>
+    </header>
+
+    <main role="main" aria-live="assertive">
+
+       <!--Start Quiz Section-->
+
+      <fieldset>
+        <div class="row">
+          <div class="col-12">
+            <legend>Paleo Diet</legend>
+            <p>This quiz is to analyze your basic knowledge the Paleo Diet.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <button type="button" id="start"> Start Quiz</button>
+
+<!--Question Section-->
+
+ <section class='question-section'>
+            <div class='question-answer-container'>
+                <!--question container-->
+                <div class='question-container'>
+                    <h3 class='question'>What is the Paleolithic?</h3>
+                </div>
+
+
+
+                 
+
+
+  <!--Answer Section-->  
+
+  <!--key answers container-->
+                <div class='key-answers-container'>
+
+                    <!--key answer 1 container-->
+                    <div class='key-answer-container 0'>
+                        <p class='key-answer-question'>What is the Paleolithic?</p>
+                        <p class='key-answer-answer'><strong>Correct Answer:</strong> "The Paleolithic period is characterized from the first manufacture of stone tools to shortly before the development of agriculture","The Paleolithic period occurred between 0.01 million years ago to 1.6 million years ago","Pleistocene Period"</p>
+                    </div>
+  <!--key answers container-->
+                <div class='key-answers-container'>
+                    <!--key answer 2 container-->
+                    <div class='key-answer-container 0'>
+                        <p class='key-answer-question'>What is the Paleolithic Diet?</p>
+                        <p class='key-answer-answer'><strong>Correct Answer:</strong>  "Primarily wild game and vegetable foods",	"The Paleo-diet primarily had two food groups: meat/fish and vegetable/fish and did not include or rarely included grains","Protein contributed twice to five times that of the caloric intake for modern humans for Paleolithic humans and much more cholesterol and less fat"</p>
+                    </div>
+  <!--key answers container-->
+                <div class='key-answers-container'>
+                    <!--key answer 3 container-->
+                    <div class='key-answer-container 0'>
+                        <p class='key-answer-question'>What are some benefits of the Paleolithic diet?</p>
+                        <p class='key-answer-answer'><strong>Correct Answer:</strong> "Paleolithic diet improves blood pressure, glucose tolerance, decreased insulin secretion, increased insulin sensitivity and improved lipid profiles"</p>
+                    </div>
+  <!--key answers container-->
+                <div class='key-answers-container'>
+
+                    <!--key answer 4 container-->
+                    <div class='key-answer-container 0'>
+                        <p class='key-answer-question'>"What are some drawbacks to the Paleolithic diet?"</p>
+                        <p class='key-answer-answer'><strong>Correct Answer:</strong> "All of the above"</p>
+                    </div>
+  <!--key answers container-->
+                <div class='key-answers-container'>
+
+                    <!--key answer 5 container-->
+                    <div class='key-answer-container 0'>
+                        <p class='key-answer-question'>"Who is the Paleolithic diet best suited for?"</p>
+                        <p class='key-answer-answer'><strong>Correct Answer:</strong>  "Short term weight loss and fitness goals",	"Chronic health issues"</p>
+                    </div>
+  <!--key answers container-->
+                <div class='key-answers-container'>
+
+                    <!--key answer 6 container-->
+                    <div class='key-answer-container 0'>
+                        <p class='key-answer-question'>" "What types of foods are associated with the Paleolithic diet?""</p>
+                        <p class='key-answer-answer'><strong>Correct Answer:</strong> "Vegetables",	"Fruits and Nuts","Wild meats","Eggs"</p>
+                    </div>
+  <!--key answers container-->
+                <div class='key-answers-container'>
+
+                    <!--key answer 7 container-->
+                    <div class='key-answer-container 0'>
+                        <p class='key-answer-question'>"What types of foods are not associated with the Paleolithic diet?"</p>
+                        <p class='key-answer-answer'><strong>Correct Answer:</strong> "Refined processed foods (containing refined oils such as shortening, margarine)",
+			                  "Sugars (sucrose, high fructose corn syrup, syrups)",
+		                  	"Grains (whole grain, refined grains)",
+		                  	"Dairy (milk, cheese, butter)"</p>
+                    </div>
+
+        <!-- final status container-->
+            <div class='final-status-container'>
+                <!--reset button-->
+                <button class='reset-button'>
+                    Try Again
+                </button>     
+          </div>
+        </div>
+      </fieldset>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="store.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
