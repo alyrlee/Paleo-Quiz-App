@@ -2,9 +2,8 @@ body {
   font-family: "Roboto", sans-serif;
   color: black;
   margin:0;
-  background:cover;
-   background: url(images/food-background-2763.jpg) fixed;
-  background-color: #483018;
+  background-size:cover;
+   background-image: url(images/food-background-2763.jpg);
 }
 
 header {
